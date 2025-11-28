@@ -34,7 +34,7 @@ learnable_pe = True
 # Frequency bands - key parameter for PSNR
 # Match the fixed-encoding baseline for fair comparison
 multires = 14  # Same band count as the fixed baseline 10
-multires_views = 6  # Restored to baseline view-dependent capacity 4 
+multires_views = 4  # Restored to baseline view-dependent capacity 4 
 
 # Fourier Encoding Hyperparameters (based on commit fc8f4840 - similar to original NeRF)
 pe_learnable_freqs = True  # Make frequency bands learnable (default: True)
