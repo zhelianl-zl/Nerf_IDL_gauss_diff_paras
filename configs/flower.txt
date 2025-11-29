@@ -39,7 +39,7 @@ multires_views = 6  # Restored to baseline view-dependent capacity 4
 # Fourier Encoding Hyperparameters (based on commit fc8f4840 - similar to original NeRF)
 pe_learnable_freqs = True  # Make frequency bands learnable (default: True)
 pe_use_gating = True  # Use per-frequency amplitude gates (default: False, set True for soft progressive encoding)
-pe_init_scale = 1.0  # Initial scale for frequency initialization (default: 1.0)
+pe_init_scale = 1.3  # Initial scale for frequency initialization (default: 1.0)
 pe_lr_scale = 0.3  # PE learning rate relative to network LR (increased for faster adaptation)
 learnable_pe_phase = True  # Make phase shifts learnable (enabled for more flexibility)
 

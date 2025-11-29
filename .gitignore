@@ -6,4 +6,4 @@
 *.npz
 *.dae
 data/*
-logs/*
+logs/*Nerf_IDL_sid/ 
